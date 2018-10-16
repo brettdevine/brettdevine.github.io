@@ -31,7 +31,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -83,9 +83,9 @@ author:
   avatar           : "profile.png"
   bio              : "Economics Professor at WSU"
   location         : "Pullman, WA"
-  employer         :
+  employer         : "Washington State University"
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "brett.devine@wsu.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -171,6 +171,9 @@ kramdown:
 # Collections
 collections:
   teaching:
+    output: true
+    permalink: /:collection/:path/
+  workingpapers:
     output: true
     permalink: /:collection/:path/
   publications:
