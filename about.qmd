@@ -1,0 +1,10 @@
+---
+title: "About"
+about:
+    template: trestles
+    image: profile.jpeg
+---
+
+I am an economist and data scientist with an endless fascination with information theory. My economics research touches upon the role of information in economics and also issues of entrepreneurship.
+
+As an Assistant Professor of Business Analytics at Hamline University, I teach graduate and undergraduate courses on data science applications in businesss and mentor students in their efforts to gain the skills for an analtyics career.

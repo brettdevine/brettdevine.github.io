@@ -1,0 +1,35 @@
+---
+title: "Campaign Resposne Rate"
+format: revealjs
+---
+
+# What is the response rate?
+
+-  We know we need at least a 15% response rate to justify the project.
+-  But what could the actual response rate turn out to be?
+
+## Prior Beliefs
+
+:::: {.rows}
+
+::: {.row height="40%"}
+- Response rate is a number between 0 and 1.
+- But what are the chances response rate takes on any one number in that interval?
+- Before observing any evidence based on factual data, we might consider any value as equally likely.
+- We admit to being totally ignorant.
+:::
+
+::: {.row height="60%"}
+```{r}
+#| label: fig-prior-plot
+#| fig-cap: "Prior beliefs"
+
+rr_values =  seq(0, 1, 0.01)
+priors = rep(1,length(rr_values))
+plot(rr_values, priors, type = "l")
+```
+:::
+
+::::
+
+

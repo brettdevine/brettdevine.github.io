@@ -1,0 +1,24 @@
+---
+title: "Practice File"
+image: "practice_file_1_img.png"
+---
+A practice document using the "USArrests" data.
+
+So here is where I'd have lots of things to say and such. So this is where we add text, lets *emphasize* that if we are not too **bold**.
+
+```{r}
+data(USArrests)
+```
+
+We could also look at how the scatter plots above are showing the correlation coefficient.
+$$
+\begin{align}
+    \rho(X,Y) = \frac{Cov(X,Y)}{Var(X)\cdot V(Y)}
+\end{align}
+$$
+
+And the cool thing is, the math worked out quite well
+
+```{r}
+plot(USArrests)
+```
