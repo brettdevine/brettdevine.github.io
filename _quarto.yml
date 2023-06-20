@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title:  "![](bd_logo.png){width=0.5in}"
