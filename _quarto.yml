@@ -3,16 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title:  "![](bd_logo.png){width=0.5in}"
+  title:  "Brett Devine"
   navbar:
-    background: primary
-    search: true
-    right:
-      - href: index.qmd
-        text: Home
-      - projects.qmd
-      - CV.qmd
-      - about.qmd
+    title: false
+    right: # aligns navbar items to the right/left/center
+      - text: Posts
+        href: posts/index.qmd
+      - text: CV
+        href: cv/index.qmd
+    page-footer:
+      background: light
+      right: 
+        - icon: github
+          href: https://github.com/brettdevine
+        - icon: linkedin
+          href: https://www.linkedin.com/in/brett-devine/
 
 format:
   html:

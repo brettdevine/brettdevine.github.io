@@ -1,10 +1,26 @@
 ---
-title: ""
+title: "Brett Devine"
+image: https://media.licdn.com/dms/image/D5603AQHzC8HZgw6mqA/profile-displayphoto-shrink_800_800/0/1670559053880?e=1700092800&v=beta&t=RhVIDak6MXzhPwtoJPqS1WBMeh8KUo3UC492o6iM4fM
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/brett-devine
+    - icon: github
+      text: Github
+      href: https://www.github.com/brettdevine
+    - icon: envelope
+      text: Email
+      href: mailto:bdevine01@hamline.edu
 ---
 
-![](bd_logo_splash.png){width=800px}
+![](img/bd_logo_splash.png){width=800px}
 
 All things economics, business data science, and information theory with a focus on decision-driven analytics.
 
 I want to make some sample changes to my website.
+
 

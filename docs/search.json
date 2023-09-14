@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "![](bd_logo.png){width=0.5in}",
+    "title": "Brett Devine",
     "section": "",
-    "text": "All things economics, business data science, and information theory with a focus on decision-driven analytics."
+    "text": "All things economics, business data science, and information theory with a focus on decision-driven analytics.\nI want to make some sample changes to my website."
   },
   {
     "objectID": "projects.html",
@@ -51,6 +51,20 @@
   {
     "objectID": "CV.html",
     "href": "CV.html",
+    "title": "CV",
+    "section": "",
+    "text": "Education\n\nPh.D. Economics, Washington State University (July 2018)\nB.S. Economics, Brigham Young University (May 2012)\n\n\n\nExperience\n\nAssistant Professor of Business Analytics, Hamline University. August 2019 - Present.\nVisiting Assistant Professor, Washington State University. August 2018 - July 2019.\n\n\n\nResearch\n\n\nTeaching\n\nData Mining\nMachine Learning II\nIntroduction to Business Analytics\n\n\n\nConferences"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
     "title": "CV",
     "section": "",
     "text": "Education\n\nPh.D. Economics, Washington State University (July 2018)\nB.S. Economics, Brigham Young University (May 2012)\n\n\n\nExperience\n\nAssistant Professor of Business Analytics, Hamline University. August 2019 - Present.\nVisiting Assistant Professor, Washington State University. August 2018 - July 2019.\n\n\n\nResearch\n\n\nTeaching\n\nData Mining\nMachine Learning II\nIntroduction to Business Analytics\n\n\n\nConferences"
