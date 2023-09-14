@@ -6,7 +6,9 @@ website:
   title:  "Brett Devine"
   navbar:
     title: false
-    right: # aligns navbar items to the right/left/center
+    left: # aligns navbar items to the right/left/center
+      - text: Brett Devine
+        href: index.qmd
       - text: Posts
         href: posts/index.qmd
       - text: CV
