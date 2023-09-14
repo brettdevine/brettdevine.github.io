@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "![](bd_logo.png){width=0.5in}",
     "section": "",
-    "text": "All things economics, business data science, and information theory."
+    "text": "All things economics, business data science, and information theory with a focus on decision-driven analytics."
   },
   {
     "objectID": "projects.html",
@@ -25,7 +25,7 @@
     "href": "projects/Bayes_ResponseRate.html",
     "title": "Campaign Resposne Rate",
     "section": "",
-    "text": "We know we need at least a 15% response rate to justify the project.\nBut what could the actual response rate turn out to be?\n\n\n\n\n\n\nResponse rate is a number between 0 and 1.\nBut what are the chances response rate takes on any one number in that interval?\nBefore observing any evidence based on factual data, we might consider any value as equally likely.\nWe admit to being totally ignorant.\n\n\n\n\n\n\n\n\nFigure 1: Prior beliefs"
+    "text": "We know we need at least a 15% response rate to justify the project.\nBut what could the actual response rate turn out to be?\n\n\n\n\n\n\nResponse rate is a number between 0 and 1.\nBut what are the chances response rate takes on any one number in that interval?\nBefore observing any evidence based on factual data, we might consider any value as equally likely.\nWe admit to being totally ignorant.\n\n\n\n\nrr_values =  seq(0, 1, 0.01)\npriors = rep(1,length(rr_values))\nplot(rr_values, priors, type = \"l\")\n\n\n\n\nFigure 1: Prior beliefs"
   },
   {
     "objectID": "projects/Basic_Bagging.html",

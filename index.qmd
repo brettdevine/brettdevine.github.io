@@ -4,4 +4,4 @@ title: ""
 
 ![](bd_logo_splash.png){width=800px}
 
-All things economics, business data science, and information theory.
+All things economics, business data science, and information theory with a focus on decision-driven analytics.
