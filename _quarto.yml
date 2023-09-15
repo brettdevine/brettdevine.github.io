@@ -15,6 +15,9 @@ website:
       - text: Projects
         href: projects/index.qmd
         icon: code-square
+      - text: Teaching
+        href: teaching/index.qmd
+        icon: book-half
       - text: CV
         href: cv/index.qmd
         icon: file-person
