@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title:  "Brett Devine"
+  title:  "Brett Devine is the best"
   favicon: /img/bd_square_logo-48.ico
   navbar:
     title: false
