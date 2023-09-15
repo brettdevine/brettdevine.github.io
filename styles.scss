@@ -1,74 +1,80 @@
-/* -- scss:defaults --*/
+/*-- scss:defaults --*/
 // SCSS variables
 // https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 
 
 // My Color Variables
-
-
-// Colors
-$body-bg: // the page background color
-$body-color: // the page text color.
-$link-color: // the link color.
-$input-bg: // the background color for HTML inputs.
-$popover-bg: // the bg color for popovers
+$theme-blue: #3399CC;
+$theme-black: #333333;
+$theme-gray: #CCCCCC;
+$theme-hl: white;
 
 // Fonts
-$font-family-sans-serif: // The sans-serif font family for the page.
-$font-family-monospace: // The monospace font family for the page.
-$font-size-root: // The base font size for the page.
-$toc-font-size: // The font size for the page TOC
-$h1-font-size: // Font sizes for the specified headings.
-$h2-font-size:
-$h3-font-size:
-$h4-font-size:
-$h5-font-size:
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+// Colors
+//$body-bg: // the page background color
+$body-color: $theme-black; // the page text color.
+$link-color: $theme-blue; // the link color.
+//$input-bg: // the background color for HTML inputs.
+//$popover-bg: // the bg color for popovers
+
+// Fonts
+//$font-family-sans-serif: // The sans-serif font family for the page.
+//$font-family-monospace: // The monospace font family for the page.
+//$font-size-root: // The base font size for the page.
+//$toc-font-size: // The font size for the page TOC
+//$h1-font-size: // Font sizes for the specified headings.
+//$h2-font-size:
+//$h3-font-size:
+//$h4-font-size:
+//$h5-font-size:
 
 // Code Blocks
-$code-block-border-left:
-$code-block-border-left-style:
-$code-block-border-left-size:
-$code-block-padding-left:
-$code-block-bg:
-$code-block-bg-padding:
-$code-block-bg-alpha:
+//$code-block-border-left:
+//$code-block-border-left-style:
+//$code-block-border-left-size:
+//$code-block-padding-left:
+//$code-block-bg:
+//$code-block-bg-padding:
+//$code-block-bg-alpha:
 
 /// Code Copy
-$btn-code-copy-color: // copy button at top-right of code blocks.
-$btn-code-copy-color-active: 
+//$btn-code-copy-color: // copy button at top-right of code blocks.
+//$btn-code-copy-color-active: 
 
 // Inline Code
-$code-bg: // bg color of inline code.
-$code-color: // text color of inline code.
+//$code-bg: // bg color of inline code.
+//$code-color: // text color of inline code.
 
 // Table of Contents
-$toc-color:
-$toc-font-size:
-$toc-active-border:
-$toc-inactive-border:
+//$toc-color:
+//$toc-font-size:
+//$toc-active-border:
+//$toc-inactive-border:
 
 // Layout
-$content-padding-top: // padding appear before main content area
+//$content-padding-top: // padding appear before main content area
 
 // Navigation
-$navbar-bg: // bg color of the navbar. Default = $primary
-$navbar-fg: // color of foreground (text & nav) on navbar.
-$navbar-hl: // highlight color for links in navbar.
-$sidebar-bg: // bg color for a sidebar. Default == $light or $body-bg
-$sidebar-hl: // the highlight color for links in sidebar ($link-color).
-$footer-bg: // bg color for links in sidebar (if not spec $link-color).
+$navbar-bg: $theme-blue; // bg color of the navbar. Default = $primary
+$navbar-fg: $theme-gray; // color of foreground (text & nav) on navbar.
+$navbar-hl: $theme-hl; // highlight color for links in navbar.
+//$sidebar-bg: // bg color for a sidebar. Default == $light or $body-bg
+//$sidebar-hl: // the highlight color for links in sidebar ($link-color).
+//$footer-bg: // bg color for links in sidebar (if not spec $link-color).
 
 // Callouts
-$callout-border-width:
-$callout-border-scale:
-$callout-icon-scale:
-$callout-margin-top:
-$callout-margin-bottom:
-$callout-color-note: // default=$blue
-$callout-color-tip: // default=$green
-$callout-color-caution: // default=$orange
-$callout-color-warning: // default=$yellow
-$callout-color-important: // default=$red
+//$callout-border-width:
+//$callout-border-scale:
+//$callout-icon-scale:
+//$callout-margin-top:
+//$callout-margin-bottom:
+//$callout-color-note: // default=$blue
+//$callout-color-tip: // default=$green
+//$callout-color-caution: // default=$orange
+//$callout-color-warning: // default=$yellow
+//$callout-color-important: // default=$red
 
 
 

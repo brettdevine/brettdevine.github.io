@@ -19,8 +19,8 @@ about:
 
 ![](img/bd_logo_splash.png){width=800px}
 
-All things economics, business data science, and information theory with a focus on decision-driven analytics.
+All things economics, business data science, and information theory with a focus on decision-driven analytics and causal econometrics.
 
-I want to make some sample changes to my website.
+I am a Ph.D. trained economist with with experience conducting economic research, teaching business analytics, and directing a marketing analytics clinic.
 
 

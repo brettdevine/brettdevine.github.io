@@ -4,15 +4,20 @@ project:
 
 website:
   title:  "Brett Devine"
+  favicon: /img/bd_square_logo-48.ico
   navbar:
     title: false
+    logo: /img/bd_logo_border.png
     left: # aligns navbar items to the right/left/center
-      - text: Brett Devine
-        href: index.qmd
       - text: Posts
+        icon: clipboard-data
         href: posts/index.qmd
+      - text: Projects
+        href: projects/index.qmd
+        icon: code-square
       - text: CV
         href: cv/index.qmd
+        icon: file-person
     page-footer:
       background: light
       right: 
@@ -23,8 +28,9 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - styles.scss
+    mainfont: Lato
     toc: true
 
 
